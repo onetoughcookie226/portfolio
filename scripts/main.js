@@ -36,11 +36,12 @@ function setUserName() {
     setUserName();
   }
 
-// let quseion = 'where are you from?';
-//     substring = 'from'
-
-//     // console.log(question.includes(substring));
-
-// if (question == '') {
-
-// }
+let question = prompt('Ask a question about me and I\'ll try to answer it');
+   
+if (question == "where are you from?") {
+  document.write ('From Canada')
+} else if ( uestion == "How old are you?") {
+  document.write ('22')
+} else {
+  document.write ('Sorry, I dont understand your question')
+}
